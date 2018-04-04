@@ -1,0 +1,19 @@
+.noborders > td{
+  border-color: transparent;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.bor{
+  border-bottom:solid 1px #cccccc !important;
+}
+
+.ghost_text {
+  text-align: right;
+  color: #ccc;
+}
+
+.account-circle {
+  width:1px !important;
+}
