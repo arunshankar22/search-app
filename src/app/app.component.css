@@ -1,19 +1,29 @@
-.noborders > td{
-  border-color: transparent;
-  border-bottom-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
+.left-menu {
+  height: 60px;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
+  padding-left: 25px;
 }
 
-.bor{
-  border-bottom:solid 1px #cccccc !important;
+.middle-menu {
+  height: 60px;
+  border-left: 1px #CCCCCC solid;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
 }
 
-.ghost_text {
-  text-align: right;
-  color: #ccc;
+.right-menu {
+  height: 60px;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
+  padding-left: 200px;
+  float: right;
+}
+.icon {
+  padding-left: 20px;
 }
 
-.account-circle {
-  width:1px !important;
+.side-bar {
+  border-right: 1px #CCCCCC solid;
 }
+

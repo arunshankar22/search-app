@@ -1,0 +1,101 @@
+.noborders > td{
+  border-color: transparent;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+.noborderslast  > td{
+  border-color: transparent;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.noborder {
+  border-bottom: none;
+}
+
+.ghost_text {
+  text-align: right;
+  color: #ccc;
+}
+
+.account-circle {
+  width:1px !important;
+  border-top: none !important;
+}
+
+.material-icons {
+  padding-left: 10px;
+}
+
+.ellips-icon {
+  padding-left: 150px;
+  padding-right: 20px;
+}
+
+.container-large {
+  margin-top: 10px;
+}
+
+.md-button.md-fab.md-fab-bottom-right {
+  top: auto;
+  right: 20px;
+  bottom: 20px;
+  left: auto;
+  float: right;
+}
+
+.md-button.md-fab {
+  z-index: 20;
+  line-height: 56px;
+  min-width: 0;
+  width: 56px;
+  height: 56px;
+  vertical-align: middle;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+  border-radius: 50%;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+.md-button.md-default-theme.md-fab, .md-button.md-fab {
+  background-color: rgb(255,82,82);
+  color: rgb(255,255,255);
+}
+
+.md-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  min-height: 36px;
+  min-width: 88px;
+  line-height: 36px;
+  vertical-align: middle;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  border: 0;
+  padding: 0 6px;
+  margin: 6px 8px;
+  background: transparent;
+  color: currentColor;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  margin-top: 20px;
+}

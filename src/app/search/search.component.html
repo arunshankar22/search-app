@@ -1,0 +1,32 @@
+<div class="container-large">
+<i class="material-icons">search</i>
+<table  datatable class="row-border hover">
+  <thead>
+  <tr>
+    <th class="noborder"></th>
+    <th class="noborder"></th>
+    <th class="noborder"></th>
+    <th class="noborder"></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let rec of this.data">
+    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
+    <td class="bor">{{rec.name}} <br/>
+      <span style="color: #ccc;">{{rec.email}}</span>
+    </td>
+    <td class="bor ghost_text">Oct 1, 2015</td>
+    <td class="bor ghost_text">1 year ago <i class="ellips-icon fa fa-ellipsis-v"></i></td>
+  </tr>
+  </tbody>
+</table>
+  <button class="md-fab md-fab-bottom-right docs-scroll-fab md-button md-ink-ripple scrolling" type="button" ng-transclude="" docs-scroll-class="scrolling" ng-click="scrollTop()" aria-label="Back to Top">
+
+    <md-icon md-svg-src="img/icons/ic_add_black_24px.svg" class="ng-scope" role="img" aria-hidden="true">
+      <svg height="100%" viewBox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg" fit="" preserveAspectRatio="xMidYMid meet" focusable="false">
+        <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+        <path d="M0 0h24v24H0z" fill="none"/>
+    </svg>
+    </md-icon>
+    <div class="md-ripple-container" style=""></div></button>
+</div>

@@ -1,97 +1,27 @@
-<table datatable class="row-border hover">
-  <thead>
-  <tr>
-    <th></th>
-    <th>Name</th>
-    <th>Created Date</th>
-    <th>Last login</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Suzi Cuningham <br/>
-      <span style="color: #ccc;">suzi.cuningham@gmail.com</span>
-    </td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Bobby Daniels <br/>
-      <span style="color: #ccc;">bobby.d@outlook.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">John Walker <br/>
-      <span style="color: #ccc;">johnywalker@blue.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Eddy Stevens <br/>
-      <span style="color: #ccc;">estevens@yahoo.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Jan Williams <br/>
-      <span style="color: #ccc;">jdubs@msn.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Arun Shankar<br/>
-      <span style="color: #ccc;">arun.zorro@gmail.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">John Cena <br/>
-      <span style="color: #ccc;">john.cena@fb.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Rock <br/>
-      <span style="color: #ccc;">therock@outlook.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">TripleH <br/>
-      <span style="color: #ccc;">th@msn.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Shawn Michels <br/>
-      <span style="color: #ccc;">smichels@yahoo.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Kane <br/>
-      <span style="color: #ccc;">kane@green.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  <tr  class="noborders">
-    <td class="account-circle"><img src="../assets/account-circle.svg" alt="user" height="28" width="28"></td>
-    <td class="bor">Hulkhogan <br/>
-      <span style="color: #ccc;">hulkh@wwf.com</span></td>
-    <td class="bor ghost_text">Oct 1, 2015</td>
-    <td class="bor ghost_text">1 year ago</td>
-  </tr>
-  </tbody>
-</table>
+<div class="row">
+  <app-header> </app-header>
+</div>
+<div class="row">
+  <div class="col-md-3 left-menu">
+    Users
+  </div>
+  <div class="col-md-6 middle-menu">
+    All Users
+
+  </div>
+  <div class="col-md-3 right-menu">
+    <i class="fa fa-th"></i>
+    <i class="icon fa fa-align-left"></i>
+    <i class="icon fa fa-cog"></i>
+    <i class="icon fa fa-ellipsis-v"></i>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3 side-bar">
+    <app-sidebar> </app-sidebar>
+  </div>
+  <div class="col-md-9 container-fluid">
+    <router-outlet> </router-outlet>
+    <app-search></app-search>
+  </div>
+</div>
