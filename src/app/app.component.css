@@ -1,0 +1,29 @@
+.left-menu {
+  height: 60px;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.middle-menu {
+  height: 60px;
+  border-left: 1px #CCCCCC solid;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
+}
+
+.right-menu {
+  height: 60px;
+  border-bottom: 1px #CCCCCC solid;
+  padding-top: 15px;
+  padding-left: 200px;
+  float: right;
+}
+.icon {
+  padding-left: 20px;
+}
+
+.side-bar {
+  border-right: 1px #CCCCCC solid;
+}
+
